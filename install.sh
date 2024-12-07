@@ -29,6 +29,9 @@ packages="$packages fish"
 # cli utilities
 packages="$packages zoxide bat exa fd fzf ripgrep tldr pay-respects-bin tokei gh zotify-git gum"
 
+# firefoxing
+packages="$packages firefox-developer-edition firefox-dark-reader firefox-ublock-origin"
+
 # install packages
 sudo yay -S $packages
 
